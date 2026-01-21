@@ -1,8 +1,3 @@
-
-
----
-
-```markdown
 # 📉 Prediksi Churn Pelanggan Menggunakan XGBoost
 
 ## 🧠 Deskripsi Proyek
@@ -65,10 +60,10 @@ Metrik evaluasi yang digunakan:
 
 ## 📈 Ringkasan Hasil Evaluasi
 
-| Model                | F1-Score    | ROC-AUC     |
-|---------------------|-------------|-------------|
-| Logistic Regression | Baik        | Baik        |
-| XGBoost             | Lebih Baik  | Lebih Baik  |
+| Model                | F1-Score   | ROC-AUC   |
+|---------------------|------------|-----------|
+| Logistic Regression | Baik       | Baik      |
+| XGBoost             | Lebih Baik | Lebih Baik |
 
 Model **XGBoost** dipilih untuk deployment karena memberikan performa terbaik
 pada data tidak seimbang.
@@ -93,15 +88,12 @@ Aplikasi web dibangun menggunakan **Streamlit** dengan fitur:
 churn_project/
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
 ├── notebooks/
 │   └── churn_prediction.ipynb
-│
 ├── models/
 │   ├── xgb_model.pkl
 │   ├── scaler.pkl
 │   └── feature_names.pkl
-│
 ├── app.py
 ├── requirements.txt
 └── README.md
@@ -209,7 +201,9 @@ dan telah memenuhi kriteria:
 
 Proyek ini dibuat untuk **kepentingan akademik dan pembelajaran**.
 
-```
+````
 
----
+
+
+
 
