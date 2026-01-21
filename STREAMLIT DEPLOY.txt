@@ -1,0 +1,3 @@
+STREAMLIT DEPLOY
+
+Notes: Tidak dideploy karena VENV Tidak di upload di git hub, program berjalan normal di localhost, dan tentunya bisa langsung di deploy juga jika VENV di upload juga.
