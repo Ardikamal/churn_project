@@ -1,4 +1,5 @@
 
+
 ---
 
 ````markdown
@@ -208,3 +209,7 @@ Proyek ini dibuat untuk **kepentingan akademik** dan pembelajaran.
 ```
 
 ---
+
+
+Tinggal bilang 💪
+```
